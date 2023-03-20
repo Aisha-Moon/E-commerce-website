@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website layout with bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--header starts here-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container"><img src="img/download (1).svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <!--header ends here-->
+  <!--img slider starts here-->
+  <section id="about">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slide4.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h1>Website layout by Bootstrap</h1>
+        <p>Some representative placeholder content for the first slide.</p>
+        <p><a class="btn" href="">Learn more</a></p>
+      </div>
+    </div>
+  <div class="carousel-item">
+    <img src="img/slide2.webp" class="d-block w-100" alt="...">
+    <div class="carousel-caption">
+      <h1>Website layout by Bootstrap</h1>
+      <p>Some representative placeholder
+        content for the first slide.</p>
+      <p><a class="btn" href="">Learn more</a></p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="img/slide.webp" class="d-block w-100" alt="...">
+    <div class="carousel-caption">
+      <h1 class="text-dark fw-bold text-capitalize">Website layout by Bootstrap</h1>
+      <p>Some representative placeholder
+        content for the first slide.</p>
+      <p><a class="btn" href="">Learn more</a></p>
+    </div>
+  </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+  <!--img slider ends here-->
+  <!--section starts here-->
+ <section id="services"  style="background-color: wheat;"  class="service section-padding ">
+  <div class="container">
+    <div class="row mt-4" style="background-color: gainsboro;">
+      <div class="col-md-4">
+        <div class="service-img">
+        <img src="img/sideimg1.webp" alt="" class="img-fluid" style="width: 100%; height: 250px;">
+      </div>
+      </div>
+      <div class="col-md-8 border">
+        <div class="service-text">
+          <h2 class="text-capitalize fw-bold m-4 text-success section-heading">We provide best quality service ever</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus suscipit distinctio at illum tempora error reprehenderit recusandae laudantium repellendus modi Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorem..</p>
+          <a href="" class="btn mb-2">Learn More</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="row mt-4" style="background-color: gainsboro;">
+     
+      <div class="col-md-8 border">
+        <div class="service-text">
+          <h2 class="text-capitalize text-danger fw-bold m-4 section-heading">We provide best quality service ever</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatibus suscipit distinctio at illum tempora error reprehenderit recusandae laudantium repellendus modi
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, illum? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Sunt, dolorem..</p>
+            <a href="" class="btn mb-2">Learn More</a>
+        </div>
+    
+      </div>
+      <div class="col-md-4">
+        <div class="service-img">
+          <img src="img/sideimg.jpg" alt="" class="img-fluid" style="width: 100%; height: 250px;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+ </section>
+
+  <!--section ends here-->
+  <section class="service-sec section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="service-header text-center pb-5">
+           <h2 class="service-heading text-success fw-bold mt-4">Fresh fruits and vegetables</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolores debitis et commodi? Repellat!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card text-dark text-center pb-2">
+            <div class="card-body">
+              <img src="img/card img/apple-removebg-preview.png" class="service-img" alt="service-img">
+              <h3 class="text-capitalize fw-bold">Apple</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus possimus ut repellendus nemo tempora! Nemo aliquam in et impedit!</p>
+              <a href="" class="card-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card text-dark text-center pb-2">
+            <div class="card-body">
+              <img src="img/card img/cherry-removebg-preview.png" class="service-img" alt="service-img">
+              <h3 class="text-capitalize fw-bold">Cherries</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus possimus ut repellendus nemo tempora! Nemo aliquam in et impedit!</p>
+              <a href="" class="card-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card  text-center  text-dark pb-2">
+            <div class="card-body">
+              <img src="img/card img/orange-removebg-preview.png" class="service-img" alt="service-img">
+              <h3 class="text-capitalize fw-bold">Oranges</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus possimus ut repellendus nemo tempora! Nemo aliquam in et impedit!</p>
+              <a href="" class="card-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-3">
+          <div class="card text-center text-dark pb-2">
+            <div class="card-body">
+              <img src="img/card img/straw-removebg-preview.png" class="service-img" alt="service-img">
+              <h3 class="text-capitalize fw-bold">Strawberries</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus possimus ut repellendus nemo tempora! Nemo aliquam in et impedit!</p>
+              <a href=""  class="card-btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!--portfolio starts-->
+  <section id="portfolio" class="portfolio section-padding position-relative mt-3">
+    <div class="container">
+      <img src="img/317691557_3252807868391711_4015782543746613191_n.jpg" alt="" class="portfolio-img" >
+      <h2 class="portfolio-heading text-capitalize" style="position:absolute;top:40%;left: 20%;">Hi ! I am a web developer from Bangladesh</h2>
+    </div>
+  </section>
+  <!--portfolio ends-->
+  <!--contact section starts-->
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2 class="text-center text-white">CONTACT ME</h2>
+      <hr class="hr-style">
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <form action="mailto:imtiajhanimoon@gmail.com">
+          <div class="form-group">
+            <label for="Fullname">Fullname</label>
+            <input type="text" class="form-control" name="Fullname" required>
+            <div class="valid-feedback">valid</div>
+            <div class="invalid-feedback">Enter fullname before submitting</div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email" required>
+            
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="" id="" cols="30" rows="4" class="form-control" style="resize: none;"></textarea>
+            
+          </div>
+          <div class="form-group text-center">
+            <input type="submit" class="btn btn-primary mt-5 form-btn" value="Submit">
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--contact section ends-->
+  <!--footer starts-->
+  <footer class="footer">
+    <p class="copyright__text">
+      copyright &copy, by Aisha moon.All rights reserved
+    </p>
+    <nav class="footer__nav">
+      <a href="#blog-banner-section" class="footer__link"><i class="fab fa-home footer__icon"></i></a>
+  
+      <a href="https://www.facebook.com/aaishaaktermoon" class="footer__link" target="_blank"><i
+          class="fab fa-facebook footer__icon"></i></a>
+  
+      <a href="https://www.facebook.com/aaishaaktermoon" class="footer__link" target="_blank"><i
+          class="fab fa-youtube footer__icon"></i>
+      </a>
+      <a href="https://www.facebook.com/aaishaaktermoon" class="footer__link" target="_blank"><i
+          class="fab fa-github footer__icon"></i>
+      </a>
+      <a href="https://www.facebook.com/aaishaaktermoon" class="footer__link" target="_blank"><i
+          class="fab fa-linkedin footer__icon"></i>
+      </a>
+    </nav>
+  </footer>
+  <!--footer ends-->
+  
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
